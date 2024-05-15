@@ -1,6 +1,6 @@
 const express = require('express');
 const body_parser = require('body-parser');
-const adminRoute = require('./routes/admin.routes');
+const adminRoute = require('../routes/admin.routes');
 
 const app = express();
 
